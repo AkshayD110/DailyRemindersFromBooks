@@ -26,7 +26,7 @@ def select_highlights():
         highlights_to_mail += '\n'
     print(highlights_to_mail)
     sendingmail_object = SendingMail(highlights_to_mail)
-    #sendingmail_object.sendmail()
+    sendingmail_object.sendmail()
 
 
 if __name__ == '__main__':
