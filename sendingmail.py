@@ -2,7 +2,7 @@
 # File name: eventCreator.py       #
 # Author: Akshay Deshpande         #
 # Date created : 16th May 2021     #
-# Last modified : 16th June 2021   #
+# Last modified : 17th May 2021   #
 ####################################
 import smtplib
 import ssl
