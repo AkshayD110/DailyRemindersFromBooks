@@ -1,0 +1,16 @@
+---
+resources:
+  - name: kindle-highlights-gitrepo
+    type: git
+    source: 
+      uri: https://github.com/AkshayD110/KindleHighlights.git
+      branch: main
+
+jobs: 
+  - name: kindly-Highlighs-Job
+    public: false
+    plan:
+      - in_parallel:
+        - get: kindle-highlights-gitrepo
+      - task: kindle-highlight-job
+      - file: kindle-highlights-gitrepo/ci/taskfile.yml
