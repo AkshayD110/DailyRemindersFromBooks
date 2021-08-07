@@ -14,3 +14,4 @@ run:
     - -c
     - |
       ls -lrth
+      python3 kindle-highlights-gitrepo/main.py
