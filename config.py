@@ -1,3 +1,4 @@
+import os
 sender_email = os.environ.get("SENDER_MAIN")
 receiver_email = os.environ.get("RECEIVER_MAIL")
 password = os.environ.get("LOGIN")
