@@ -31,9 +31,9 @@ class SendingMail:
     def sendmail(self):
         port = 587
         smtp_server = "smtp.gmail.com"
-        sender_email = config.sender_email
-        receiver_email = config.receiver_email
-        password = config.password
+        sender_email = os.environ.get("SENDER_MAIN")
+        receiver_email = os.environ.get("RECEIVER_MAIL")
+        password = os.environ.get("LOGIN")
 
         msg = EmailMessage()
         msg.set_content(self.highlights_selected_for_mail)
