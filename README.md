@@ -11,6 +11,7 @@ Iteration 2: Can I let anyone cut a PR on the repo with their mail-id and so tha
 Iteration 3 : Can I tag the highlights and group them together, so that it is easier to get back to them?
 
 Iteration 4 : Automate the process of getting highlights from Kindle to the git repo.
+Selfnote: Organize the repo better.
 
 Open for more idea: 
 mail: akshaydeshpande1@acm.org
