@@ -3,7 +3,7 @@ name: Daily mail sender
 on:
   workflow_dispatch: 
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "* 7 * * *"
 
 env: 
     sender_email: ${{ secrets.SENDER_MAIN }}
