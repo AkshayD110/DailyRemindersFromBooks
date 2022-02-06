@@ -34,7 +34,7 @@ class SendingMail:
         sender_email = os.environ.get("SENDER_MAIN")
         receiver_email = os.environ.get("RECEIVER_MAIL")
         password = os.environ.get("LOGIN")
-
+        print(sender_email)
         msg = EmailMessage()
         msg.set_content(self.highlights_selected_for_mail)
         msg['Subject'] = "Daily Kindle Highlights"
