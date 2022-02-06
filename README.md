@@ -17,3 +17,5 @@ Current Status:
 - Iteration1 -- Done
 - Iteration2 -- Inprogress
 - Interation3 -- ToDo
+
+PS: If you want to use this solution for your own KindleHighlights or any other quotes, fork this project and update the Quotes in the file "https://github.com/AkshayD110/YourQuotesFromBooks/blob/main/KindleHighlights"
