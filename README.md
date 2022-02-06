@@ -19,3 +19,6 @@ Current Status:
 - Interation3 -- ToDo
 
 PS: If you want to use this solution for your own KindleHighlights or any other quotes, fork this project and update the Quotes in the file "https://github.com/AkshayD110/YourQuotesFromBooks/blob/main/KindleHighlights"
+
+The Mail that you will get daily!
+![image](https://user-images.githubusercontent.com/10325459/152694854-8d3cd936-9b7e-46f4-af71-81513f3031bc.png)
