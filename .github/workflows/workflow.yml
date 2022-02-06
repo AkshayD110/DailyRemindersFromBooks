@@ -6,7 +6,7 @@ on:
     - cron: "0 7 * * *"
 
 env: 
-    sender_email: ${{ secrets.SENDER_MAIN }}
+    sender_email: ${{ secrets.SENDER_MAIL }}
     receiver_email: $ {{ secrets.RECEIVER_MAIL }}
     password: ${{ secrets.LOGIN }}
     
