@@ -2,7 +2,7 @@
 
 Problem statement: "How to improve the retention of content that I read from books?"
 
-Solution: 
+Solution:  
 Iteration 1: Can I build something that will take all my kindle highlights(10,000s of them) as input, and randomly pick 10 of the highlights and send out a mail?
 Ideas: 
 
