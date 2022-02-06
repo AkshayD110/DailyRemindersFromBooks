@@ -10,6 +10,8 @@ Iteration 2: Can I let anyone cut a PR on the repo with their mail-id and so tha
 
 Iteration 3 : Can I tag the highlights and group them together, so that it is easier to get back to them?
 
+Iteration 4 : Automate the process of getting highlights from Kindle to the git repo.
+
 Open for more idea: 
 mail: akshaydeshpande1@acm.org
 
@@ -17,6 +19,7 @@ Current Status:
 - Iteration1 -- Done
 - Iteration2 -- Inprogress
 - Interation3 -- ToDo
+- Interation4 -- ToDo
 
 PS: If you want to use this solution for your own KindleHighlights or any other quotes, fork this project and update the Quotes in the file "https://github.com/AkshayD110/YourQuotesFromBooks/blob/main/KindleHighlights"
 
