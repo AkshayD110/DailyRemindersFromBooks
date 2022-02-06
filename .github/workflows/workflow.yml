@@ -1,10 +1,14 @@
 name: Daily mail sender
 
 on:
-
   workflow_dispatch: 
   schedule:
     - cron: "*/30 * * * *"
+
+env: 
+    sender_email: ${{ secrets.SENDER_MAIN }}
+    receiver_email: $ {{ secrets.RECEIVER_MAIL }}
+    password: ${{ secrets.LOGIN }}
     
 jobs: 
   build:
