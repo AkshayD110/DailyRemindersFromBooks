@@ -1,5 +1,5 @@
 import os
-sender_email = "perfengineeringstuff"
-receiver_email = "akshayd110@gmail.com"
-password = "kluhpfsjweouuxuo"
+sender_email = os.environ['SENDER_MAIL']
+receiver_email = os.environ['RECEIVER_MAIL']
+password = os.environ['LOGIN']
 number_of_highlights_per_day = 10
