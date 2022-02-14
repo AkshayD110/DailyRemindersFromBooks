@@ -3,7 +3,7 @@ name: Daily mail sender - Poo
 on:
   workflow_dispatch: 
   schedule:
-    - cron: "15 15 * * *"
+    - cron: "0 3 * * *"
 
 env: 
     SENDER_MAIL: ${{ secrets.SENDER_MAIL }}
