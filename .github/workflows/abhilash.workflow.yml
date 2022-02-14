@@ -1,4 +1,4 @@
-name: Daily mail sender
+name: Daily mail sender - Abhilash
 
 on:
   workflow_dispatch: 
