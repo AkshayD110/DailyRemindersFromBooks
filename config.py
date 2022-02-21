@@ -2,4 +2,4 @@ import os
 sender_email = "perfengineeringstuff"
 receiver_email = "pooja.itgampalli@gmail.com"
 password = os.environ['LOGIN']
-number_of_highlights_per_day = 10
+number_of_highlights_per_day = 2
